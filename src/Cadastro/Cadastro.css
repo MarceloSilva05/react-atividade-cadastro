@@ -1,0 +1,52 @@
+form{
+    display: flex;
+    flex-direction:column;
+    align-items:left;
+    margin-left:10vw;
+}
+img{
+    width: 200px;
+}
+form h1{
+font-size:1.9em;
+}
+form p{
+    font-size:0.9em;
+    margin-bottom: 10px;
+}
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100vw;
+    height:100vh;
+    background-color:#EFF1F6;
+ }
+ .img{
+     justify-content: center;
+     display: flex;
+     flex-direction:column;
+     align-items:center;
+     background-image: linear-gradient(45deg,#6E5EBF,#9E60BA);
+     color: white;
+     height:100vh;
+     width: 50vw;
+ }
+ .img h1{
+     font-size:3em;
+ }
+ input{
+     width: 400px;
+     height: 45px;
+     border-radius: 5px;
+     font-size:0.9em;
+
+ }
+ .botao{
+     width: 400px;
+     height: 45px;
+     margin-top:10px;
+     background-color:#d2d6e0;
+     border-radius: 5px;
+     font-size: 1em;
+ }
